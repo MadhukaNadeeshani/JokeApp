@@ -60,16 +60,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="294dp"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="51dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:layout_marginBottom="681dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="654dp"
         android:fontFamily="serif"
-        android:text="Let's Have Fun ??"
+        android:text="Let's Have Fun ?"
         android:textColor="@color/teal_200"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
@@ -81,12 +81,24 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="59dp"
-        android:layout_marginEnd="190dp"
-        android:layout_marginRight="190dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
         android:text="Register soon"
         android:textColor="@color/teal_700"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginBottom="576dp"
+        app:srcCompat="@drawable/jokes" />
 
 </RelativeLayout>
