@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -11,41 +12,81 @@
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="User Name"
-        android:layout_marginTop="50dp"/>
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:hint="User Name" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:layout_below="@+id/username"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/username"/>
+        android:hint="Password" />
 
     <EditText
         android:id="@+id/repassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Retype password"
+        android:layout_below="@+id/password"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/password"/>
+        android:hint="Retype password" />
 
     <Button
         android:id="@+id/btnsignup"
-        android:layout_width="match_parent"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/repassword"
-        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
         android:text="Register"
         app:backgroundTint="@color/purple_700" />
 
     <Button
         android:id="@+id/btnsignin"
-        android:layout_width="match_parent"
+        android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnsignup"
-        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
         android:background="@color/white"
         android:text="Already have an account? Sign in" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="681dp"
+        android:fontFamily="serif"
+        android:text="Let's Have Fun ??"
+        android:textColor="@color/teal_200"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:text="Register soon"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
