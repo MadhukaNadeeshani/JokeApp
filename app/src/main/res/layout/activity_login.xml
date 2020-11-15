@@ -4,25 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:padding="10dp"
     tools:context=".LoginActivity">
 
     <EditText
         android:id="@+id/username1"
-        android:layout_width="384dp"
-        android:layout_height="67dp"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="243dp"
-        android:layout_marginBottom="432dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="316dp"
         android:hint="User Name" />
 
     <EditText
         android:id="@+id/password1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="63dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="317dp"
+        android:layout_marginBottom="209dp"
         android:hint="Password" />
 
     <Button
@@ -32,25 +37,26 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="126dp"
-        android:layout_marginRight="126dp"
-        android:layout_marginBottom="171dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="82dp"
         android:text="Sign in" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="127dp"
+        android:layout_height="211dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="191dp"
-        android:layout_marginRight="191dp"
-        android:layout_marginBottom="594dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:layout_marginBottom="510dp"
+        android:fontFamily="serif"
         android:text="Already have an Account?"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold|italic" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -62,6 +68,6 @@
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="537dp"
-        app:srcCompat="@drawable/login" />
+        app:srcCompat="@drawable/login1" />
 
 </RelativeLayout>

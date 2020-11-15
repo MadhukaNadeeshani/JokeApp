@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="206dp"
         android:hint="User Name" />
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="39dp"
         android:hint="Password" />
 
     <EditText
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="33dp"
         android:hint="Retype password" />
 
     <Button
@@ -39,9 +39,9 @@
         android:layout_below="@+id/repassword"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginRight="115dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
         android:text="Register"
         app:backgroundTint="@color/purple_700" />
 
@@ -52,27 +52,11 @@
         android:layout_below="@+id/btnsignup"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
         android:background="@color/white"
         android:text="Already have an account? Sign in" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="265dp"
-        android:layout_height="51dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="654dp"
-        android:fontFamily="serif"
-        android:text="Let's Have Fun ?"
-        android:textColor="@color/teal_200"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView2"
@@ -81,24 +65,24 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="77dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginRight="45dp"
-        android:text="Register soon"
-        android:textColor="@color/teal_700"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Jokes"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="256dp"
-        android:layout_marginRight="256dp"
-        android:layout_marginBottom="576dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginBottom="513dp"
         app:srcCompat="@drawable/jokes" />
 
 </RelativeLayout>
