@@ -10,17 +10,15 @@
 
     <EditText
         android:id="@+id/username1"
-        android:layout_width="382dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="401dp"
+        android:layout_height="74dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="330dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="19dp"
-        android:layout_marginBottom="316dp"
-        android:hint="User Name" />
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="311dp"
+        android:hint="@string/user_name" />
 
     <EditText
         android:id="@+id/password1"
@@ -28,7 +26,7 @@
         android:layout_height="63dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="209dp"
-        android:hint="Password" />
+        android:hint="@string/password" />
 
     <Button
         android:id="@+id/btnsignin1"
@@ -40,7 +38,7 @@
         android:layout_marginEnd="128dp"
         android:layout_marginRight="128dp"
         android:layout_marginBottom="82dp"
-        android:text="Sign in" />
+        android:text="@string/sign_in" />
 
     <TextView
         android:id="@+id/textView3"
@@ -53,7 +51,7 @@
         android:layout_marginRight="222dp"
         android:layout_marginBottom="510dp"
         android:fontFamily="serif"
-        android:text="Already have an Account?"
+        android:text="@string/already_have_an_account"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
